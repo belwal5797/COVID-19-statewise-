@@ -1,40 +1,5 @@
-/*WEATHER...
-#t{
-    text-align: center;
-    color: blueviolet;
-}
+/*COVID(INDIA)*/
 
-input{
-    margin-left: 40%;
-    width: 200px;
-    height: 50px;
-    border-radius: 4px;
-    font-size: larger;
-    text-align: center;
-}
-
-#d{
-    width: 300px;
-    height: 200px;
-    border: 1px solid red;
-    margin-top: 10%;
-    margin-left: 37%;
-}
-
-
-
-#s{
-    text-align: center;
-    color:yellowgreen;
-}
-
-#gt{
-    text-align: center;
-    color:orangered;
-}
-*/
-
-/*COVID(INDIA)
 h1{
     color: blueviolet;
     text-align: center;
@@ -63,7 +28,10 @@ span{
 
      font-size:xx-large;
 }
-*/
+
+
+
+/*COVID-19(Statewise)*/
 
 h1{
     text-align: center;
@@ -103,4 +71,47 @@ th:hover{
 
 #u:hover{
     background-color: wheat;
+}
+
+/*layout covid..*/
+
+.layOut{
+    text-align: center;
+    background-image: linear-gradient(to right,yellow,red);
+}
+
+/*link*/
+
+.link{
+    width: 100%;
+    height: 120px;
+    border: 2px solid black;
+    background-image: linear-gradient(to right,pink,yellow);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: xx-large;  
+    align-items:center;
+    
+}
+
+#ind{
+    text-decoration:none;
+    width: 160px;
+    height: 43px;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+
+#st{
+    text-decoration:none;
+    width: 180px;
+    height: 49px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 50px;
+    background-color: white;
 }
